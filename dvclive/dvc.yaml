@@ -1,0 +1,9 @@
+metrics:
+- metrics.json
+plots:
+- plots/metrics:
+    x: step
+artifacts:
+  mymodel:
+    path: ../mymodel
+    type: model
